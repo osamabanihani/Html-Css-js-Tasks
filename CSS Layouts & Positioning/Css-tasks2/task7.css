@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Georgia, serif;
+}
+
+h1 {
+    margin-right: 190px;
+}
+
+.content {
+    margin-right: 190px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.fixed-images {
+    position: fixed;
+
+    top: 30px;
+    right: 30px;
+
+    width: auto;
+
+    background-color: white;
+    border: 12px solid black;
+}
+
+.fixed-images img {
+    display: block;
+
+    width: 100%;
+    height: 270px;
+
+    object-fit: contain;
+}
