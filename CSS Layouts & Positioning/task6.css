@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.first-part,
+.second-part {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 55px;
+}
+
+.first-part {
+    background-color: orange;
+}
+
+.second-part {
+    background-color: blue;
+}
