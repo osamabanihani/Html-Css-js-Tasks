@@ -1,0 +1,15 @@
+h1 {
+    margin-bottom: 30px;
+}
+
+table {
+    border-spacing: 15px 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px 10px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px gray;
+    font-size: 22px;
+}

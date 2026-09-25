@@ -1,0 +1,50 @@
+body {
+    background-color: #fff8f0;
+    font-family: "Times New Roman", serif;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.article {
+    width: 720px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.article1 {
+    border: 1px solid gray;
+}
+
+.article2 {
+    border: 2px dashed black;
+}
+
+.article3 {
+    border: 1px solid gray;
+    color: purple;
+}
+
+.article h2 {
+    font-size: 24px;
+}
+
+.article p {
+    font-size: 16px;
+}
+
+.orange {
+    background-color: orange;
+    font-weight: bold;
+}
+
+.yellow {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.red-border {
+    border: 2px dashed red;
+}
