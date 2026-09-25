@@ -1,0 +1,21 @@
+body {
+font-family: Arial;
+}
+
+.container {
+text-align: center;
+}
+
+#myImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    margin-top: 15px;
+    
+}
