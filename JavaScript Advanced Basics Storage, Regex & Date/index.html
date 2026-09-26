@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Ordering System</title>
+</head>
+<body>
+
+    <h1>Restaurant Ordering System</h1>
+    <form id="orderForm">
+
+        <label>Username:</label>
+        <input type="text" id="username">
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password">
+        <br><br>
+
+        <label>Phone Number:</label>
+        <input type="text" id="phone">
+        <br><br>
+
+        <label>Order:</label>
+        <select id="order">
+        <option value="Burger">Burger</option>
+        <option value="Pizza">Pizza</option>
+        <option value="Pasta">Pasta</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit Order</button>
+    </form>
+    <p id="message"></p>
+    <p id="savedOrder"></p>
+    <p id="savedUsername"></p>
+    <script src="index.js"></script>
+</body>
+</html>
