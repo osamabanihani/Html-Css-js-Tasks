@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Burger",
+    "price": 4,
+    "available": true
+  },
+  {
+    "name": "Shawarma",
+    "price": 3,
+    "available": true
+  },
+  {
+    "name": "Pizza",
+    "price": 6,
+    "available": false
+  }
+]
